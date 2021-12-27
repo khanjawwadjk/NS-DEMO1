@@ -8,7 +8,7 @@ class Post extends Component{
             <div>
                 <h3>POST component</h3>
                 <div>
-                {this.props.list.map((vals, index)=>{ 
+                {this.props.list1.map((vals, index)=>{ 
                 return(
                         <Card id="myCard" style={{ width: '18rem' }} key={vals.id}>
                         <Card.Img variant="top" src={vals.myImage} height="200px" width="200px" />

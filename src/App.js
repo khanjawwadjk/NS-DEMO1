@@ -19,7 +19,7 @@ let postList = [
 function App() {
   return (
     <div className="App">
-      <Post list={postList}/>
+      <Post list1={postList}/>
      
     </div>
   );
