@@ -1,0 +1,19 @@
+.myForm{
+    border: 2px solid black;
+    border-radius: 10px;
+    background: rgb(34,193,195);
+    background: linear-gradient(90deg, rgba(34,193,195,1) 7%, rgba(253,184,45,1) 100%);
+    box-shadow: 14px 28px 23px 3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 14px 28px 23px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 14px 28px 23px 3px rgba(0,0,0,0.75);
+    margin: 20px;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+input[type="submit"] {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
