@@ -1,8 +1,8 @@
 .myForm{
     border: 2px solid black;
     border-radius: 10px;
-    background: rgb(34,193,195);
-    background: linear-gradient(90deg, rgba(34,193,195,1) 7%, rgba(253,184,45,1) 100%);
+    /* background: rgb(195,34,34); */
+    background: linear-gradient(90deg, rgba(139, 2, 25, 0.877) 20%, rgb(78, 59, 59) 100%);
     box-shadow: 14px 28px 23px 3px rgba(0,0,0,0.75);
     -webkit-box-shadow: 14px 28px 23px 3px rgba(0,0,0,0.75);
     -moz-box-shadow: 14px 28px 23px 3px rgba(0,0,0,0.75);

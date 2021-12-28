@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {Card} from "react-bootstrap";
+import {Card, Row} from "react-bootstrap";
 import "./post.css";
 
 class Post extends Component{
@@ -7,9 +7,11 @@ class Post extends Component{
         return(
             <div>
                 <h3>POST component</h3>
-                <div>
+           
+                <Row>
                 {this.props.list1.map((vals, index)=>{ 
                 return(
+                    
                         <Card id="myCard" style={{ width: '18rem' }} key={vals.id}>
                         <Card.Img variant="top" src={vals.myImage} height="200px" width="200px" />
                         <hr />
@@ -19,11 +21,12 @@ class Post extends Component{
                                             <Card.Text><b>postDesc:</b> {vals.postDesc}</Card.Text>
                                             <Card.Text><b>postAuthor:</b> {vals.author}</Card.Text>
                                             <Card.Text><b>Date:</b> {vals.date}</Card.Text> 
-                            </Card.Body>
+                                </Card.Body>
                         </Card>
                     )
                 })}
-                </div>
+                </Row>
+             
             </div>
         )
     }
